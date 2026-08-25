@@ -383,5 +383,7 @@ int main(int argc, char **argv)
         fputs("ERROR closing local file\n", stderr);
         return 3;
     }
+
+    printf("Work done by DatPT151");
     return status;
 }
