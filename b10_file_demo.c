@@ -364,7 +364,7 @@ int main(int argc, char **argv)
     if (argc != 3 ||
         (strcmp(argv[1], "csv") != 0 && strcmp(argv[1], "srec") != 0 &&
          strcmp(argv[1], "write-demo") != 0)) {
-        fprintf(stderr, "USAGE: %s <csv|srec|write-demo> <local-path>\n", argv[0]);
+        fprintf(stderr, "USAGE: GIT25 demo by PhuocPV3: %s <csv|srec|write-demo> <local-path>\n", argv[0]);
         return 64;
     }
 
@@ -384,6 +384,12 @@ int main(int argc, char **argv)
         return 3;
     }
 
-    printf("Work done by DatPT151");
+<<<<<<< HEAD
+    
+
+printf("Work done by DatPT151");
+=======
+    puts("File da sua by TanBN7");
+>>>>>>> origin/Develop
     return status;
 }
