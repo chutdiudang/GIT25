@@ -383,5 +383,7 @@ int main(int argc, char **argv)
         fputs("ERROR closing local file\n", stderr);
         return 3;
     }
+
+    puts("File da sua by TanBN7");
     return status;
 }
